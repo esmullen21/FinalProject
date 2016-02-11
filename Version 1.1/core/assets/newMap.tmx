@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="20" tilewidth="16" tileheight="16" nextobjectid="13">
+ <tileset firstgid="1" name="generic_platformer_tiles_1" tilewidth="16" tileheight="16" tilecount="3072">
+  <image source="generic_platformer_tiles_1.png" width="1024" height="768"/>
+ </tileset>
+ <tileset firstgid="3073" name="acorn" tilewidth="16" tileheight="16" tilecount="1">
+  <image source="acorn.png" width="16" height="16"/>
+ </tileset>
+ <tileset firstgid="3074" name="flower" tilewidth="16" tileheight="16" tilecount="1">
+  <image source="flower.png" width="16" height="16"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="20" opacity="0.99">
+  <data encoding="base64" compression="zlib">
+   eJztlEkOwjAMRd0egKHAReBg7DgFZSjTJWADXcDt+EgsKkSm1jQg/pPeJrEtJ1YiQgghhBBCCCGEEEJcHOEJnuEFXuEtUi2tXjTPpFXvtUZpiZ0mImM4gbOkRsOKtbR60TyTVr1qjYdzmMMFXMIVXMMCbjz2t3AH9/DwjDdZrWOLC4015fn2GpoTEl8E5nRSkS7swT7M4AAO4Sj93L4tr05O015duaZ1W472vcScx7t907rvnf76PFw9NrmDNt8V5/E/82jz34j1X3EenMe3zOMOyaqFyw==
+  </data>
+ </layer>
+ <objectgroup name="CollectableAcorns">
+  <object id="11" gid="3073" x="1573" y="158" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup name="CollectableFlowers" visible="0">
+  <object id="12" gid="3074" x="1513" y="190" width="16" height="16"/>
+ </objectgroup>
+</map>

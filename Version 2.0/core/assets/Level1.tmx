@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="30" tilewidth="16" tileheight="16" nextobjectid="86">
+ <tileset firstgid="1" name="generic_platformer_tiles_1" tilewidth="16" tileheight="16" tilecount="3072">
+  <image source="generic_platformer_tiles_1.png" width="1024" height="768"/>
+ </tileset>
+ <tileset firstgid="3073" name="banana" tilewidth="32" tileheight="17" tilecount="1">
+  <image source="banana.png" width="32" height="17"/>
+ </tileset>
+ <tileset firstgid="3074" name="bananaBunch" tilewidth="32" tileheight="28" tilecount="1">
+  <image source="bananaBunch.png" width="32" height="28"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="200" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztl+1OFDEUhgdvCPzitoi7xLtQFEVvQl1YFPEmVIS9CzRBf6j/OBOmSVP68Z6ZTqfA+yRvJpttp+356DnTNIQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEkLF4J3ov+iBaTLwXQmpka61p7oserE29k7uJfUctRYeij6LPnY5FXybbHVlIXjwRzTLlh/H3vuigue7zkv62Yy+2F2RMbs6t50/RL9Hs3pXmor/Nlf6J/o+wPvHj9lS2cuD6e+74vKS/fbHn2wsypg++2sB6UD+mp7JVY39l4qvNXV89ugmxtm7Z96HoaUE7G/u1tvokOmrK1HCzru2vmn3l1gzztGNuOdnu4rS5vOHE2CPR48KxhuL2dEZ2nJSMla2ufzY99LyA3c67dS/k+Vv0p6nTVza+mmFirtb60bKI5MdRpXte72LRVhuX292+Nwvuu7XfQael6LCQ3RaOz2r1lcF8h7uaWc/noh3RC9FL0a7olei1aE/0RvR2hHG5xuRcD33XswrG5nwXMgYRul7ffY5hx9S4rwl9E30XnYh+AGNS70PWOBWdiVbOb+3c0P9DzppaN9cezwr/h9rKjBmyPmr7vnZD7Ir6KLbGqvsf9TMyTmPLlSMz1n1qbKSJD8TGqTm3IT9C91+J9X335BC7+ebGxmviMhQHmvtyiL0054rVgxz5kapPyD1bOj9yzcmdH8gdWVt+IHGtrbsrz7mRuh6qYbn80PdO09y5NdeIqfID7R20vQEaU4h/0Fh21+ibu+7ZY/Yf0qPWkh93sX4gtkFzQ7vX0J3dt7/J1fOl6oF77ti3GlI7ps4PND7GyI+pcwo5WyqGUzESilek57BjRlMr3O8KND/QM50AY9E8Tt3BOeMgdw/B/PDHKRJDvhhE5mn6Wk2PMzSOXV/H5mjfhea5ry5p7i5t3Qr5IvSOm5QfoXOE7JWKnz49js/PSK+B2l+z/iUYixnl
+  </data>
+ </layer>
+ <objectgroup name="BananaLayer">
+  <object id="60" gid="3073" x="294" y="204" width="32" height="17"/>
+  <object id="61" gid="3073" x="379" y="197" width="32" height="17"/>
+  <object id="62" gid="3073" x="585" y="217" width="32" height="17"/>
+  <object id="63" gid="3073" x="664" y="215" width="32" height="17"/>
+  <object id="64" gid="3073" x="848" y="316" width="32" height="17"/>
+  <object id="65" gid="3073" x="972" y="307" width="32" height="17"/>
+  <object id="66" gid="3073" x="1045" y="303" width="32" height="17"/>
+  <object id="67" gid="3073" x="1075" y="223" width="32" height="17"/>
+  <object id="68" gid="3073" x="1173" y="298" width="32" height="17"/>
+  <object id="69" gid="3073" x="1352" y="223" width="32" height="17"/>
+  <object id="70" gid="3073" x="1496" y="207" width="32" height="17"/>
+  <object id="71" gid="3073" x="1580" y="200" width="32" height="17"/>
+  <object id="72" gid="3073" x="1712" y="266" width="32" height="17"/>
+  <object id="73" gid="3073" x="1867" y="233" width="32" height="17"/>
+  <object id="74" gid="3073" x="1925" y="230" width="32" height="17"/>
+  <object id="75" gid="3073" x="2015" y="281" width="32" height="17"/>
+  <object id="76" gid="3073" x="2121" y="277" width="32" height="17"/>
+  <object id="77" gid="3073" x="2249" y="262" width="32" height="17"/>
+  <object id="78" gid="3073" x="2358" y="232" width="32" height="17"/>
+  <object id="79" gid="3073" x="2396" y="226" width="32" height="17"/>
+  <object id="80" gid="3073" x="2509" y="248" width="32" height="17"/>
+  <object id="81" gid="3073" x="2635" y="237" width="32" height="17"/>
+  <object id="82" gid="3073" x="2729" y="252" width="32" height="17"/>
+  <object id="83" gid="3073" x="2825" y="246" width="32" height="17"/>
+  <object id="84" gid="3073" x="2955" y="227" width="32" height="17"/>
+  <object id="85" gid="3073" x="3096" y="202" width="32" height="17"/>
+ </objectgroup>
+ <objectgroup name="WinBananaLayer">
+  <object id="59" gid="3074" x="3162" y="165" width="32" height="28"/>
+ </objectgroup>
+</map>
